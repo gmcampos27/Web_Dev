@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<title> formatacao </title>
+	</head>
+	<body>
+		<div style="background-color: black; color:green; padding:20px">
+			<p>Hello Neo</p>
+			<p>The Matrix has you...</p>
+		</div>
+		<p> Texto normal </p>
+		<p><b> texto em negrito </b></p>
+		<p><big> texto grandão </big></p>
+		<p><i> Homo sapiens </i></p>
+		<p><small>texto piquinininho</small></p>
+		<p><strong>oq isso faz</strong></p>
+		<p><sub>subescrito?</sub></p>
+		<p><sup>superescrito?</sup></p>
+		<p><ins>isso ta ficando chato</ins></p>
+		<p><del>esse é o último</del></p>
+		<p>	<h6> This is heading 6 </h6></p>
+		<!-- tabela teste -->
+		<table border="2">
+			<tr>
+				<td>Blue</td>
+				<td>Red</td>
+				<td>Green</td>
+			</tr>
+			<td>céu</td>
+			<td>tomate</td>
+			<td>grama</td>
+			</tr>
+		</table>
+		<br />
+		<table border="2" align="center">
+			<tr>
+				<td bgcolor="Blue">Blue</td>
+				<td bgcolor="Red">Red</td>
+				<td bgcolor="Green">Green</td>
+			</tr>
+			<td colspan="2" bgcolor="Purple">Thanos</td>
+			<td>grama</td>
+			</tr>
+		</table>
+	<!--<form action="url" method="POST">
+		<input type="text" name="username" /> <br />
+		<input type="password" name="password" />
+	</form>
+	-->
+	<form action="url" method="POST" autocomplete="off">
+		<label>Your name: </label>
+		<input id="user" type="text" name="username"> <br />
+		<label for="email">Your email adress: </label>
+		<input type="text" name="email" required 
+		placeholder="email@example.com" 
+		autofocus /> <br /> 
+		<label>Password: </label>
+		<input type="password" name="password" />
+	</form>
+	<frameset cols="25%,50%,25%">
+   		<frame src="a.htm" />
+   		<frame src="b.htm" />
+   		<frame src="c.htm" />
+	</frameset>
+	<form>
+		<input type="radio" name="gender" value="male" /> Masculino
+		<br />
+		<input type="radio" name="gender" value="female" /> Feminino
+		<br />
+		<input type="radio" name="gender" value="other" /> Outro
+		<br />
+		<input type="submit" value="Enviar" />
+	</form>
+	<svg width ="1000" height ="1000">
+		<circle cx="500" cy="100" r="100" fill="white" stroke ="brown" >
+		<animate attributeName="cx" from="500" to="250" dur="3s" fill="remove" repeatCount="3" />
+		</circle>
+	</svg>
+	</body>
+</html>
