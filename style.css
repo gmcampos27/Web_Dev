@@ -1,0 +1,169 @@
+#intro {
+	color:yellow;
+	background-color:gray;
+	/*Assim o id intro estará dessa cor
+	Poderia fazer .intro para deixar todos */
+}
+body{
+	 /*background:url("blue.png");*/
+	 font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	 border-style: dotted;
+	 border-width: 2px;
+	 border-color: rgb(153, 153, 255);
+	 /*background-color: #01D8FC;*/
+}
+p.small{
+	font-size: small;
+}
+@font-face {
+
+  font-family: Delicious; 
+
+  src: url('Delicious-Roman.otf'); 
+
+} 
+
+@font-face { 
+
+  font-family: Delicious; 
+
+  font-weight: bold; 
+
+  src: url('Delicious-Bold.otf'); 
+
+}
+
+h1{
+
+   font-family: Delicious, sans-serif; 
+
+}
+p.xlarge{
+	font-size: 3.125em;
+	text-align: center;
+	text-shadow: rgba(0,0,255) 4px 2px 4px; 
+}
+#species{
+	font-style: italic;
+	color: rgb(255,68,34);
+	animation-name: example;
+	animation-duration: 2s;
+	animation-delay: 2s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+p.normal{
+	font-style: normal;
+	font-weight: lighter;
+	font-variant: inherit;
+}
+p.italic{
+	font-style: italic;
+	font-weight: bold;
+	font-variant: initial;
+}
+p.oblique{
+	font-style: oblique;
+	font-weight: 850;
+	font-variant: small-caps;
+}
+td.bottom{
+	vertical-align: bottom;
+}
+
+p.test{
+	letter-spacing: -1.5px;
+
+}
+p.none{
+	text-decoration: none;
+	letter-spacing: 4px;
+}
+p.underline{
+	text-decoration: underline;
+}
+p.overline{
+	text-decoration: overline;
+}
+p.inherit{
+	text-decoration: inherit;
+}
+p.line-through{
+	text-decoration: line-through;
+}
+p {
+	text-indent: 60px;
+}
+p.sem_parada::first-line{
+	white-space: pre-wrap;
+	text-shadow: 3px 5px 3px #54D45E
+}
+p.first{
+	border: 5px dotted green;
+	min-height: 100px;
+	text-decoration: underline;
+	vertical-align: top;
+}
+p.second{
+	max-width: 100px;
+	border-radius: 10px 20px 100px 40px;
+	background-color: #8C4F33;
+	box-shadow: 10px 15px #000000
+	color: white;
+}
+p.virso{
+	float: right;
+}
+.floating{
+	float: right;
+}
+ul.itens{
+	list-style-type: circle;
+}
+table{
+	caption-side: top;
+}
+a:hover{
+	color: yellow;
+	display: 
+}
+nav {
+	padding: 50px 0;
+	min-width: 500px;
+}
+nav ul{
+	background: linear-gradient(90deg,
+		rgba(148,123,84,1) 50%,
+		rgba(24,25,21,0.2) 25%
+		rgba(25,5,55,0.2) 75%
+		rgba(25,55,2,0) 100%);
+		box-shadow: 0 0 25px rgba(0,0,0,0.1)
+		inset 0 0 1px rgba(25,35, 12, 0.6);
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	padding: 10px;
+	color: #14DEA4;
+	font-family: Arial;
+	font-size: 18px;
+	text-decoration: none;
+	display: block;
+}
+#parent p:first-child{
+	color: green;
+	text-decoration: underline;
+}
+#parent p:last-child{
+	color: blue;
+	text-decoration: overline;
+}
+
+@keyframes example {
+   0%  {background-color: pink;}
+   50%  {background-color: yellow;}
+   70%  {background-color: blue;}
+   100% {background-color: green;}
+}
